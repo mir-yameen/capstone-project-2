@@ -1,0 +1,286 @@
+
+/*About Me*/
+@media(min-width:400px){
+    .container-1{
+    height:60vh
+    }
+}
+#one{
+    text-transform:uppercase;
+    color:yellow;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+}
+#two{
+    text-transform: capitalize;
+    color:white;
+    font-size: x-large;
+    margin:5px;
+    text-align: center;
+}
+#three{
+    color:white;
+    font-size: x-large; 
+    border:2px solid yellow;
+    margin:5px;
+    text-align: center;
+}
+#two span{
+    font-weight: bold;
+    color:purple;
+}
+#about-me{
+    background-color:blaCk;
+
+}
+.container-1{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    justify-content: space-around;
+    border:5px solid yellow;
+}
+.container-1 *{
+    font-family:sans-serif;
+}
+
+
+/*Resume*/
+#resume >p{
+    background-color: blueviolet;
+    text-align: center;
+    color:aliceblue;
+    font-family: ;
+    padding:2.5px;
+    font-size: xx-large;
+    margin-top: 2px;
+}
+.container-2{
+    display:grid;
+    grid-template-columns:1fr 2fr 3fr ;
+    grid-template-rows:1fr 1fr;
+    gap:10px;
+
+}
+#four > img{
+    border-radius: 50%;
+}
+#five{
+    text-transform: capitalize;
+    grid-column: span 2;
+}
+#five-a , #six-a ,#seven-a{
+    background-color: rebeccapurple;
+    color:white;
+    padding:2.5px
+}
+.container-2 span{
+    font-weight:bold;
+}
+#six{
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+.container-2 *{
+    text-transform: capitalize;
+    font-size:20px;
+    font-family: sans-serif
+}
+#resume{
+    border:3px solid black
+}
+@media(max-width:500px){
+    .container-2{
+        display: block;
+    }
+    #four,#five{
+        margin-left: 20px;
+    }
+}
+
+/*project*/
+#eight>img{
+    border:10px solid black;
+    
+}
+.container-3{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 200px 220px;
+    background-color: #328da8;
+    gap: 4px;
+}
+#eight{
+    grid-row: span 2;
+    display: flex;
+
+}
+#nine{
+   text-transform: capitalize;
+   font-size: x-large;
+   color:#a49f01;
+   font-weight:bold;
+   border: 5PX solid #a49f01 ;
+   display:flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+#ten{
+  color:aliceblue;
+  text-transform: capitalize;
+  display:flex;
+  align-items: center;
+  font-size: x-large;
+}
+#ten span{
+    font-weight: bolder;
+    color:black;
+} 
+@media(max-width:500px)
+{
+  .container-3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+  #nine{
+    border:0;
+  }
+  #ten{
+    text-align: center;
+  }
+}
+#project > p{
+    background-color: #d2eb34;
+    border:3px solid black;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: xx-large;
+    text-align: center;
+}
+@media(max-width:280px)
+{
+    .container-3 img{
+        width:240px;
+    }
+}
+
+/* additional info*/
+#add-info > p{
+    color:white;
+    background-color: black;
+    font-size: xx-large;
+    text-align: center;
+    margin-top:2px;
+    margin-bottom: 2px;
+}
+.container-4{
+ background-color:yellowgreen;
+ border:3px solid black;
+ display:flex;
+ flex-direction: row;
+ gap:9px;
+align-items: center;
+}
+.container-4>*{
+    margin-left:9px ;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+#eleven-b > p,#twelve-b > p,#thirteen-b > p{
+  text-decoration:underline;
+  font-weight:bold;
+}
+#eleven-b , #twelve-b , #thirteen-b{
+    font-size: large;
+}
+
+@media(min-width:600px)
+{
+    .container-4{
+        height:50vh;
+    }
+}
+
+@media(max-width:600px)
+{
+    .container-4{
+        display:block;
+    }
+    .container-4 *{
+        margin-top: 5px;
+    }
+}
+
+#add-info span{
+    font-weight: bold;
+    color:white;
+}
+#eleven, #twelve ,#thirteen{
+    display:flex;
+    flex-direction: column;
+    gap:20px; 
+}
+
+
+
+/*contact*/
+.container-5{
+    background-color:#ebd834;
+    border:3px solid black;
+    display:grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    font-family: sans-serif;
+}
+.container-5 img{
+ position:relative;
+ top:10px;
+}
+#fourteen{
+  grid-column: span 2;
+  display:flex;
+  justify-content: center;
+}
+#fourteen p{
+    text-align: center;
+    font-size: x-large;
+    border:3px solid white;
+    padding-bottom: 10px;
+    width:250px;
+    height:60px;
+    border-radius: 20%;
+    background-color: black;
+    color:white;
+}
+#fifteen{
+    color:#7c0a02;
+    font-size: x-large;
+}
+#fifteen >ul{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+#sixteen{
+color:red;
+font-size: x-large;
+display:flex;
+flex-direction: column;
+justify-content: center;
+font-weight: bolder;
+text-align: center;
+text-decoration-line: underline;
+}
+
+#contact span{
+    font-weight: bold;
+}
+@media(max-width:600px){
+   .container-5{
+    display:block;
+   }
+}
+
